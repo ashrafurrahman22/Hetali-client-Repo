@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About/About";
-import PageNotFound from "./Pages/PageNotFound/PageNotFound.Js";
+import Error from "./Pages/PageNotFound/Error";
 
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
 
     <Routes>
         <Route path="/" element={<About></About>}></Route>
-        <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
-
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<Error></Error>}></Route>
     </Routes>
       <Footer></Footer>
     </div>
