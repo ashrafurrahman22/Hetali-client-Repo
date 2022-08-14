@@ -6,3 +6,6 @@ Used Technologies
 * JavaScript
 * ReactJs
 * JSX
+
+Live Link:
+[ https://hetali-org.netlify.app/ ]
