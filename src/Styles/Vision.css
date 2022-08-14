@@ -1,0 +1,11 @@
+#vision {
+    padding: 50px;
+    background-image: url('../assetts/unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#visionText {
+    background-color: black;
+    opacity: 0.8;
+}
