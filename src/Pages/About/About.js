@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assetts/icons/path834.png";
 import FounderMsg from "../../Components/FounderMsg";
 import GroupCompanies from "../../Components/GroupCompanies";
+import Info from "../../Components/Info";
 import Mission from "../../Components/Mission";
 import Social from "../../Components/Social";
 import Vision from "../../Components/Vision";
@@ -9,6 +10,8 @@ import Vision from "../../Components/Vision";
 const About = () => {
   return (
     <div>
+
+      <Info></Info>
       <Vision></Vision>
         <Mission></Mission>
         <Social></Social>

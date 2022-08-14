@@ -18,7 +18,7 @@ const Social = () => {
         <div id="divider" className="w-36"></div>
       </div>
 
-        <div className="px-20 py-10 grid grid-cols-2 justify-center items-center gap-10">
+        <div className="px-20 py-10 lg:grid grid-cols-2 justify-center items-center gap-10">
 
         <div>
         <div className="card card-body bg-base-100 shadow-xl">
