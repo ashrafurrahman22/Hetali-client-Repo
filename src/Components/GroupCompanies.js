@@ -7,7 +7,7 @@ import '../Styles/GroupCompanies.css'
 
 const GroupCompanies = () => {
     return (
-        <div className='px-20 py-10'>
+        <div style={{backgroundColor:"#FAFAFA"}} className='px-20 py-10'>
 
             <h1 style={{fontFamily:"cinzel", letterSpacing:"2px"}} className='text-3xl uppercase text-center'>Group Companies</h1>
 
