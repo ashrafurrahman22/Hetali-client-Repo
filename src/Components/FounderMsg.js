@@ -4,7 +4,7 @@ import logo from '../assetts/icons/path834.png'
 
 const FounderMsg = () => {
     return (
-        <div className='flex justify-center items-center lg:py-12 py-3'>
+        <div className='flex justify-center items-center lg:py-12 py-3 lg:px-0 px-5'>
 
 <div class="card lg:w-2/4 lg:p-10 p-3 bg-base-100 shadow-2xl">
 

@@ -6,10 +6,10 @@ import star4 from '../assetts/icons/Vector.png'
 
 const Card = () => {
     return (
-        <div className='flex justify-center items-center'>
+        <div className='lg:flex justify-center items-center lg:px-0 px-8'>
             
-            <div className='lg:grid grid-cols-2 gap-5'>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div className='lg:grid grid-cols-2 lg:gap-5'>
+            <div class="card lg:w-96 bg-base-100 shadow-xl lg:py-0 lg:mb-0 mb-7">
   <figure class="px-10 pt-10">
     <img src={star4} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -18,7 +18,7 @@ const Card = () => {
   </div>
 </div>
 
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card lg:w-96 bg-base-100 shadow-xl lg:mb-0 mb-7">
   <figure class="px-10 pt-10">
     <img src={star} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -26,7 +26,7 @@ const Card = () => {
     <p>The Hetali Group is a redeveloper like no other with a profound focus on quality and long term satisfaction of its residents.</p>
   </div>
 </div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card lg:w-96 bg-base-100 shadow-xl lg:mb-0 mb-7">
   <figure class="px-10 pt-10">
     <img src={star2} alt="Shoes" class="rounded-xl" />
   </figure>
@@ -35,7 +35,7 @@ const Card = () => {
 </p>
   </div>
 </div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card lg:w-96 bg-base-100 shadow-xl lg:mb-0 mb-7">
   <figure class="px-10 pt-10">
     <img src={star3} alt="Shoes" class="rounded-xl" />
   </figure>

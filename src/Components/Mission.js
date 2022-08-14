@@ -7,7 +7,7 @@ const Mission = () => {
         <div className="bg-base-200 py-10">
       <h1
         style={{ fontFamily: "cinzel", letterSpacing: "2px" }}
-        className="text-3xl uppercase text-center"
+        className="lg:text-3xl uppercase text-center"
       >
         Mission
       </h1>
@@ -18,7 +18,7 @@ const Mission = () => {
         <div id="divider" className="w-36"></div>
       </div>
 
-        <div className="px-20 py-10 lg:grid grid-cols-2 justify-center items-center gap-10">
+        <div className="lg:px-20 px-8 py-10 lg:grid grid-cols-2 justify-center items-center gap-10">
         
         <div>
                 <img src={photo} alt="" />

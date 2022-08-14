@@ -8,7 +8,7 @@ const Main = () => {
     <div className="bg-base-300 py-10">
       <h1
         style={{ fontFamily: "cinzel", letterSpacing: "2px" }}
-        className="text-3xl uppercase text-center"
+        className="lg:text-3xl uppercase text-center"
       >
         About Us
       </h1>
@@ -21,16 +21,16 @@ const Main = () => {
 
         <img src={img1} alt="" />
 
-        <div  className="lg:w-5/12 mx-auto font-bold text-center py-10">
+        <div  className="lg:w-5/12 w-2/3 mx-auto font-bold text-center py-10">
         <p>We endeavour to build homes which make it's residents happy and proud of their address. Residents are at heart of everything we do, we build homes to live in, not houses to stay in. 
  
  </p>
         </div>
 
         <div className="py-10 flex justify-center items-center gap-5">
-        <div id="divider" className="w-full"></div>
-        <img src={logo} alt=""  className="w-32"/>
-        <div id="divider" className="w-full"></div>
+        <div id="divider" className="lg:w-full w-20"></div>
+        <img src={logo} alt=""  className="lg:w-32"/>
+        <div id="divider" className="lg:w-full w-20"></div>
       </div>
 
       {/* card component */}

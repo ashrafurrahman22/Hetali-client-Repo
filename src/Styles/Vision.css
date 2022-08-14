@@ -9,3 +9,13 @@
     background-color: black;
     opacity: 0.8;
 }
+
+#para {
+    width: 506px;
+}
+
+@media only screen and (max-width:576px) {
+    #para {
+        width: 306px;
+    }
+}

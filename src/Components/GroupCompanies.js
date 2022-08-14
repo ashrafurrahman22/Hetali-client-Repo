@@ -9,7 +9,7 @@ const GroupCompanies = () => {
     return (
         <div style={{backgroundColor:"#FAFAFA"}} className='px-20 py-10'>
 
-            <h1 style={{fontFamily:"cinzel", letterSpacing:"2px"}} className='text-3xl uppercase text-center'>Group Companies</h1>
+            <h1 style={{fontFamily:"cinzel", letterSpacing:"2px"}} className='lg:text-3xl uppercase text-center'>Group Companies</h1>
 
             <div className='py-8 flex justify-center items-center gap-5'>
                 <div id='divider' className='w-36'></div>
