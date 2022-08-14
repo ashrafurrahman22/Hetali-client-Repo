@@ -3,6 +3,7 @@ import logo from "../../assetts/icons/path834.png";
 import FounderMsg from "../../Components/FounderMsg";
 import GroupCompanies from "../../Components/GroupCompanies";
 import Info from "../../Components/Info";
+import Main from "../../Components/Main";
 import Mission from "../../Components/Mission";
 import Social from "../../Components/Social";
 import Vision from "../../Components/Vision";
@@ -10,7 +11,7 @@ import Vision from "../../Components/Vision";
 const About = () => {
   return (
     <div>
-
+      <Main></Main>
       <Info></Info>
       <Vision></Vision>
         <Mission></Mission>
